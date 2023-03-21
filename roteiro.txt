@@ -36,6 +36,17 @@ se clicar em 'criar post' a página recarrega
 idem , ver o console
 nao recarrega mais
 
+digitar em titulo e conteudo clicar em criar post e ir em Network -> Fetch/XHR -> Name -> posts -> Response 
+{
+  "body": {
+    "title": "meu titulo",
+    "body": "meu conteudo",
+    "userId": 1
+  },
+  "id": 101
+}
+
+
 
 
 

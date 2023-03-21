@@ -14,7 +14,7 @@ const NewPost = () => {
    const createPost = (e) => {
       e.preventDefault()
       
-      console.log('teste')
+      console.log(title, body)
    }
 
    return (
@@ -23,11 +23,11 @@ const NewPost = () => {
          <form onSubmit={(e) => createPost(e)} >
             <div className='form-control' >
                <label htmlFor='title' >Título</label>
-               <input type='text' id='title' name='title' placeholder='Digite o título' />
+               <input type='text' id='title' name='title' placeholder='Digite o título' onChange={(e) => setTitle(e.target.value)} />
             </div>
             <div className='form-control' >
                <label htmlFor='body' >Conteúdo:</label>
-               <textarea id='body' name='title' placeholder='Digite o conteúdo' />
+               <textarea id='body' name='title' placeholder='Digite o conteúdo' onChange={(e) => setBody(e.target.value)} />
             </div>
             <input type='submit' value='criar Post' className='btn' />
          </form>

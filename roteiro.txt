@@ -17,7 +17,9 @@ https://fonts.google.com/
 
 do Home não aparece ainda
 
-
+ver 
+http://localhost:5173
+http://localhost:5173/new
 
 
 

@@ -33,8 +33,8 @@ ir em Network -> FetchXHR -> Name -> posts -> Headers -> Requests Headers
 
 se clicar em 'criar post' a página recarrega
 
-
-
+idem , ver o console
+nao recarrega mais
 
 
 

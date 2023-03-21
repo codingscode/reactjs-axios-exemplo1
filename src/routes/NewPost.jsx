@@ -11,14 +11,16 @@ const NewPost = () => {
    const [title, setTitle] = useState()
    const [body, setBody] = useState()
    
-   const createPost = () => {
-   
+   const createPost = (e) => {
+      e.preventDefault()
+      
+      console.log('teste')
    }
 
    return (
       <div className='new-post' >
          <h2>Inserir novo Post:</h2>
-         <form onSubmit={() => createPost()} >
+         <form onSubmit={(e) => createPost(e)} >
             <div className='form-control' >
                <label htmlFor='title' >Título</label>
                <input type='text' id='title' name='title' placeholder='Digite o título' />

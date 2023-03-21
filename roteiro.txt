@@ -31,7 +31,7 @@ ver console rapido
 ir em Network -> FetchXHR -> Name -> posts -> Headers
 ir em Network -> FetchXHR -> Name -> posts -> Headers -> Requests Headers
 
-
+se clicar em 'criar post' a página recarrega
 
 
 

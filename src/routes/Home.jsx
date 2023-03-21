@@ -14,7 +14,9 @@ const Home = () => {
       
       try {
          const response = await axios.get('https://jsonplaceholder.typicode.com/posts')
-         console.log(response)
+         const data = response.data
+         
+         console.log(data)
       }
       catch (error) {
          console.log(error)

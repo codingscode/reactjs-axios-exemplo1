@@ -28,7 +28,8 @@ ver a impressao dos recursos
 
 ver console rapido
 
-ir em Network -> Name -> posts -> Headers
+ir em Network -> FetchXHR -> Name -> posts -> Headers
+ir em Network -> FetchXHR -> Name -> posts -> Headers -> Requests Headers
 
 
 

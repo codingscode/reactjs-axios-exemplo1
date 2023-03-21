@@ -24,7 +24,7 @@ http://localhost:5173/new
 
 ver a impressão no console do navegador
 
-
+ver a impressao dos recursos
 
 
 

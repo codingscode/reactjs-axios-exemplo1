@@ -24,7 +24,8 @@ a:hover {
 }
  
 p {
-   color: #a9abb3;
+   /*color: #a9abb3;*/
+   color: lightgreen;
 }
  
 

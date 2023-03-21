@@ -26,7 +26,7 @@ ver a impressão no console do navegador
 
 ver a impressao dos recursos
 
-
+ver console rapido
 
 
 

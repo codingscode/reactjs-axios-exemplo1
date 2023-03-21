@@ -16,7 +16,7 @@ const Home = () => {
          const response = await axios.get('https://jsonplaceholder.typicode.com/posts')
          const data = response.data
          
-         console.log(data)
+         setPosts(data)
       }
       catch (error) {
          console.log(error)
@@ -30,7 +30,10 @@ const Home = () => {
    
 
    return (
-      <div>Home</div>
+      <div>
+         <h1>Últimos posts</h1>
+         {posts.length === 0 ? <p >Carregando...</p> : <p >Carregou</p>}
+      </div>
    ) 
 }
 

@@ -1,0 +1,26 @@
+
+
+https://axios-http.com/ptbr/docs/intro
+
+npm create vite@latest
+
+npm i
+npm run dev
+
+npm i axios react-router-dom
+npm run dev
+
+ver http://localhost:5173/
+
+
+
+
+
+
+
+
+
+
+
+
+

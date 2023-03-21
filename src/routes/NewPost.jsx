@@ -19,6 +19,8 @@ const NewPost = () => {
       await blogFetch.post('/posts', {
          body: post,
       })
+      
+      navigate('/')
    }
 
    return (
